@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
+
+#btn{
+    position: relative;
+    margin-right: 120px;
+    background-color: grey;
+    color: black;
+}
