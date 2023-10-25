@@ -8,7 +8,7 @@ import { Options } from '../options';
   imports: [CommonModule],
   template: `
   
-  <h1>login {{explication.name}} {{title}}</h1>
+  <h1>login {{title}}  {{explication.name}}</h1>
   `,
   styleUrls: ['./header.component.css']
 })
