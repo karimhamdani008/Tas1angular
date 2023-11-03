@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FormxComponent } from './formx/formx.component';
 import { LinkComponent } from './link/link.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LinkComponent } from './link/link.component';
     HomeComponent,
     HeaderComponent,
     FormxComponent,
-    LinkComponent
+    LinkComponent,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
